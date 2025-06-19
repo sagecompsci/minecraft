@@ -1,11 +1,35 @@
 const file = "books.json";
 
+
 async function getData() {
     const response = await fetch(file);
     const data = await response.json();
-    displayBooks(data.books);
+
+    const search = () => {
+        let input = searchBar.value;
+        input = normalize(input);
+        filter(data.books, input);
+    }
+
+    search();
+
+    // if (searchBar.value === ''){
+    //     displayBooks(data.books);
+    // }
+
+
+
 }
 
+const filter = (list, input) => {
+    let filtered = [];
+    list.forEach((item) => {
+        if (normalize(item.name).includes(input)){
+            filtered.push(item);
+        }
+    });
+    displayBooks(filtered);
+}
 
 // const data = getData();
 // console.log(data);
@@ -13,6 +37,9 @@ async function getData() {
 
 const displayBooks = (books) => {
     const booksList = document.querySelector("#books-list");
+    while(booksList.firstChild){
+        booksList.firstChild.remove();
+    }
     books.forEach((book) => {
         const card = document.createElement("section");
         card.classList.add("book-card");
@@ -60,30 +87,9 @@ const displayBooks = (books) => {
 
 }
 
-getData(displayBooks);
-
-// displayBooks(data);
 
 const searchBar = document.querySelector("#search");
 searchBar.value = '';
-
-const search = () => {
-    let input = searchBar.value.toLowerCase();
-    // let stringList = [];
-    // input.split('').forEach((letter) => {
-    //     let character = ''
-    //     if (letter === " "){
-    //         character = "";
-    //     } else {
-    //         character = letter;
-    //     }
-    //     stringList.push(character);
-    // });
-    // input = stringList.join("");
-    input = normalize(input);
-    console.log(input);
-    // filter(data.books, input);
-}
 
 const normalize = (string) => {
     let stringList = [];
@@ -94,18 +100,9 @@ const normalize = (string) => {
         } else {
             character = letter;
         }
-        stringList.push(character);
+        stringList.push(character.toLowerCase());
     });
     return stringList.join("");
 }
 
-const filter = (list, input) => {
-    let filtered = [];
-    list.forEach((item) => {
-        if (normalize(item).includes(input)){
-            filtered.push(item);
-        }
-    });
-
-    displayBooks(filtered);
-}
+getData();
