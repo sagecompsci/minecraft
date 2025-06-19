@@ -1,0 +1,214 @@
+{
+  "books": [
+    {
+      "name": "Aqua Affinity",
+      "level": 1,
+      "treasure": false
+    },
+    {
+      "name": "Bane of Arthropods",
+      "level": 5,
+      "treasure": false
+    },
+    {
+      "name": "Blast Protection",
+      "level": 4,
+      "treasure": false
+    },
+    {
+      "name": "Breach",
+      "level": 4,
+      "treasure": false
+    },
+    {
+      "name": "Channeling",
+      "level": 1,
+      "treasure": false
+    },
+    {
+      "name": "Curse of Binding",
+      "level": 1,
+      "treasure": true
+    },
+    {
+      "name": "Curse of Vanishing",
+      "level": 1,
+      "treasure": true
+    },
+    {
+      "name": "Density",
+      "level": 4,
+      "treasure": false
+    },
+    {
+      "name": "Depth Strider",
+      "level": 3,
+      "treasure": false
+    },
+    {
+      "name": "Efficiency",
+      "leve": 5,
+      "treasure": false
+    },
+    {
+      "name": "Feather Falling",
+      "level": 4,
+      "treasure": false
+    },
+    {
+      "name": "Fire Aspect",
+      "level": 2,
+      "treasure": false
+    },
+    {
+      "name": "Fire Protection",
+      "level": 4,
+      "treasure": false
+    },
+    {
+      "name": "Flame",
+      "level": 1,
+      "treasure": false
+    },
+    {
+      "name": "Fortune",
+      "level": 3,
+      "treasure": false
+    },
+    {
+      "name": "Frost Walker",
+      "level": 2,
+      "treasure": true
+    },
+    {
+      "name": "Impaling",
+      "level": 5,
+      "treasure": false
+    },
+    {
+      "name": "Infinity",
+      "level": 1,
+      "treasure": false
+    },
+    {
+      "name": "Knockback",
+      "level": 2,
+      "treasure": false
+    },
+    {
+      "name": "Looting",
+      "level": 3,
+      "treasure": false
+    },
+    {
+      "name": "Loyalty",
+      "level": 3,
+      "treasure": false
+    },
+    {
+      "name": "Luck of the Sea",
+      "level": 3,
+      "treasure": false
+    },
+    {
+      "name": "Lure",
+      "level": 3,
+      "treasure": false
+    },
+    {
+      "name": "Mending",
+      "level": 1,
+      "treasure": true
+    },
+    {
+      "name": "Multishot",
+      "level": 1,
+      "treasure": false
+    },
+    {
+      "name": "Piercing",
+      "level": 4,
+      "treasure": false
+    },
+    {
+      "name": "Power",
+      "level": 5,
+      "treasure": false
+    },
+    {
+      "name": "Projectile Protection",
+      "level": 4,
+      "treasure": false
+    },
+    {
+      "name": "Protection",
+      "level": 4,
+      "treasure": false
+    },
+    {
+      "name": "Punch",
+      "level": 2,
+      "treasure": false
+    },
+    {
+      "name": "Quick Charge",
+      "level": 3,
+      "treasure": false
+    },
+    {
+      "name": "Respiration",
+      "leve": 3,
+      "treasure": false
+    },
+    {
+      "name": "Riptide",
+      "level": 3,
+      "treasure": false
+    },
+    {
+      "name": "Sharpness",
+      "level": 5,
+      "treasure": false
+    },
+    {
+      "name": "Silk Touch",
+      "level": 1,
+      "treasure": false
+    },
+    {
+      "name": "Smite",
+      "level": 5,
+      "treasure": false
+    },
+    {
+      "name": "Soul Speed",
+      "level": 3,
+      "treasure": true
+    },
+    {
+      "name": "Sweeping Edge",
+      "level": 3,
+      "treasure": false
+    },
+    {
+      "name": "Swift Sneak",
+      "level": 3,
+      "treasure": true
+    },
+    {
+      "name": "Thorns",
+      "level": 3,
+      "treasure": false
+    },
+    {
+      "name": "Unbreaking",
+      "level": 3,
+      "treasure": false
+    },
+    {
+      "name": "Wind Burst",
+      "level": 3,
+      "treasure": true
+    }
+  ]
+}
